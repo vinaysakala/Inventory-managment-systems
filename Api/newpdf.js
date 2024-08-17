@@ -237,6 +237,6 @@ table.text('12.32', { col: 3, row: 2, alignment: 'right' });
 
 doc.table(table.render(), { padding: 10 });
 
-// Finalize the document and end the stream
+
 doc.end();
 
